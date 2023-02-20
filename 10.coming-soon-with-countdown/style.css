@@ -1,0 +1,80 @@
+*, html {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.test-bg {
+    background-color: whitesmoke;
+    color: #fff;
+    background: url(./bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+/* counter styles */
+.count {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ffffff49;
+    border-radius: 50%;
+    margin: 18px 15px;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 > span {
+    font-size: 1rem;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Form*/
+.form-control, .btn {
+    border-radius: 0;
+}
+
+
+/* Social */
+.fab {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ffffff49;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 20px;
+
+}
+
+.fab:hover {
+    cursor: pointer;
+    background-color: rgba(184, 184, 184, 0.2);
+}
+
+/* 765< */
+
+/* main */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

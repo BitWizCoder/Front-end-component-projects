@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke;
+}
+
+.main {
+    width: 22rem;
+    margin: auto;
+    border: 1px solid #57c2d760;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+/* Title */
+.title {
+    color: #fff;
+    background: #57C1D7;
+    padding: 7px 0;
+    width: 100%;
+}
+
+
+.fab {
+    color: #000;
+    padding: 0 10px;
+}
+
+
+/* Line */
+.line {
+    border-bottom: 1px solid rgb(221, 219, 219);
+    width: 90%;
+    margin: 15px auto;
+}
+
+/* Button */
+.btn {
+    background: #57C1D7;
+    border: none;
+    border-radius: 1px;
+}
+
+.btn:active, .btn:focus-visible {
+    background: #57C1D7 !important;
+}
+
+.btn:hover {
+    background: #46a0b3 !important;
+}

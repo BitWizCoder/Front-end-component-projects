@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+.bo {
+    background: url(./bg.png) no-repeat center center/cover;
+}
+
+/* counter styles */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.count {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 > span {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(255, 255, 255, 0.096);
+    padding: 30px;
+    letter-spacing: 0.5rem;
+}
+
+h1:last-of-type {
+    border-right: none;
+}
+
+/* Icons */
+.fab {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.103);
+    padding: 15px 18px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.fab:hover {
+    background: rgba(255, 255, 255, 0.205);
+}
+
+/* paragraph */
+p {
+    margin-bottom: 0;
+}

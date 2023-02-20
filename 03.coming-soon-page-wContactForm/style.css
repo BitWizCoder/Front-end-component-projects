@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+body {
+    background-color: whitesmoke;
+    background: url(./bg.png) no-repeat center center/cover;
+}
+
+h2 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+/* Remove radius from button */
+.btn {
+    border-radius: 0px 5px 5px 0px;
+    width: 3.5rem;
+}
+
+/* :not(.btn-check)+.btn:active */
+
+.btn:active {
+    background-color: red;
+}
+
+.btn, :not(.btn-check)+.btn:active {
+    background-color: #00ABC7;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #05afc9;
+}
+
+.mail {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mail:focus {
+    /* border: none; */
+    box-shadow: none;
+}
+
+.col-8 > * {
+    margin-bottom: 30px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 22rem;
+}
+
+.contact > * {
+    margin-bottom: 18px;
+}
+
+
+/* Media quarie */
+@media screen and (max-width: 1200px) {
+    body {
+      /* background-color: lightgreen; */
+      /* background-image: none; */
+      /* text-align: center; */
+    }
+  }

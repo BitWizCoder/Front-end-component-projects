@@ -1,0 +1,38 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background: url(./bg.png) no-repeat center center/cover;
+    height: 92vh;
+    background-color: whitesmoke;
+}
+
+/* button */
+.btn-sign-in, .btn-sign-in:hover, .btn-sign-in:active, .btn-sign-in:focus-visible {
+    background-color: #BD6940 !important;
+    border: none;
+}
+
+
+.btn-social, .btn-social:active, .btn-social:focus-visible {
+    background-color: #fff !important;
+    color: black !important;
+    border: none;
+}
+
+.btn-social:hover{
+    background-color: rgb(240, 236, 236) !important;
+}
+
+/* inputs */
+.input-fild, .input-fild:focus {
+    background-color: rgba(217, 217, 217, 0.13);
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+}
+
+.input-fild::placeholder {
+    color: #fff;
+}

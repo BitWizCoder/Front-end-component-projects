@@ -1,0 +1,73 @@
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.main {
+    background: url(./bg.png) no-repeat center center/cover;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.signup {
+    background: #fff;
+    width: 25rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.form {
+    width: 20rem;
+    margin: auto;
+}
+
+/* Social icons */
+.fab {
+    margin: 10px;
+}
+
+.fa-facebook-f {
+    color: #fff;
+    background: #164DDB;
+    border-radius: 20px;
+    padding: 10px 13px;
+}
+
+.fa-google {
+    color: #fff;
+    background: #db0505;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* login */
+a {
+    color: #F15412 !important;
+    text-decoration: none;
+}
+
+/* form */
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgba(241, 84, 18, .30);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(241, 84, 18, .18);
+}
+
+/* checkbox */
+input[type=checkbox]{
+    accent-color: #F15412;
+}
+
+/* Button */
+.btn, .btn:focus-visible, .btn:active {
+    background: #F15412 !important;
+    border: none;
+}
+
+.btn:hover {
+    background: #d34e0c !important;
+}

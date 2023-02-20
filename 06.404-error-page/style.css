@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .1rem;
+}
+
+body {
+    background-color: whitesmoke;
+    background: url(./bg.png) no-repeat center center/cover;
+    border-right: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+}
+
+h2 > span {
+    font-size: 8rem;
+    color: rgba(221, 216, 216, 0.5);
+}
+
+.btn {
+    background-color: #fff;
+    color: black;
+    border: none;
+    box-shadow: none;
+    margin: 30px !important;
+}
+
+.btn:hover, btn:active{
+    background-color: rgb(218, 218, 218) !important;
+    color: black ;
+}

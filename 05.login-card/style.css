@@ -1,0 +1,65 @@
+body {
+    background-color: #255263;
+
+}
+
+*, html {
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    background-color: #00425A;
+    width: 30rem;
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+
+/* Avatar */
+.avatar {
+    background: url(./avatar.png) no-repeat center center/cover;
+    width: 100px;
+    height: 100px;
+}
+
+/* inputs */
+.form-control, .form-control:focus {
+    background-color: #00425A !important;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #FC7300;
+    color: #fff;
+}
+
+/*  */
+.input-icons i {
+    position: absolute;
+    color: #fff;
+    left: -11px;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    /* padding: 10px; */
+    /* text-align: center; */
+    padding-left: 1.5rem;
+}
+
+/* Login */
+.btn-login, .btn-login:hover, .btn-login:active, .btn-login:focus-visible {
+    background-color: #FC7300 !important;
+    box-shadow: none;
+    border: none;
+}
